@@ -16,6 +16,6 @@ const testBug = function () {
 try {
     testBug();
 } catch (e) {
-    alert(e.toString);
+    alert(e.toString());
 }
 ```
