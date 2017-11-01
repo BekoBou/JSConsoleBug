@@ -61,6 +61,8 @@ body {
 #mocha .test {
   margin-left: 15px;
   overflow: hidden;
+
+  margin-bottom: 5px;
 }
 
 #mocha .test.pending:hover h2::after {
@@ -83,6 +85,12 @@ body {
   float: left;
   margin-right: 5px;
   color: #00d6b2;
+
+  margin-right: 5px;
+  padding: 0 5px;
+  color: #FFF;
+  background-color: #388E3C;
+  border-radius: 2px;
 }
 
 #mocha .test.pass .duration {
@@ -122,6 +130,12 @@ body {
   float: left;
   margin-right: 5px;
   color: #c00;
+
+  margin-right: 5px;
+  padding: 0 5px;
+  color: #FFF;
+  background-color: #CB0101;
+  border-radius: 2px;
 }
 
 #mocha .test pre.error {
