@@ -45,7 +45,7 @@
   <div id="ua"></div>
   <div class="wrap">
     <ul class="browsers">
-      <li class="browser__fail">Microsoft Edge 16.16299</li>
+      <li class="browser__fail">Microsoft Edge 16.16299 — <a class="link" href="https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/">Issue #14495220</a></li>
       <li class="browser__fail">Microsoft Internet Explorer 11.0</li>
       <li class="browser__fail">Samsung Internet 5.2</li>
       <li class="browser__pass">Google Chrome 62.0.3202.75</li>
@@ -60,6 +60,25 @@
         font-family: "Fira Code", Menlo,  Consolas, monospace;
         margin: 60px 50px;
         padding: 10px;
+      }
+
+      @media screen and (max-device-width: 480px) {
+        .wrap, #ua {
+          margin: 40px 0;
+        }
+
+        #ua {
+          border-radius: 0;
+        }
+      }
+
+      .link {
+        text-decoration: none;
+        color: #00becc;
+      }
+
+      .link:hover {
+        text-decoration: underline;
       }
 
       .browsers {
